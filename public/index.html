@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3 {
+            color: purple
+        }
+    </style>
+</head>
+<body>
+    <h3>Hello World</h3>
+    <!-- تگ زیر در اصل یک کامپوننت است که مانند
+    فریمورک های دیگر داری صفت است
+    که در کلاس مورد نظر آن را تنظیم کردیم -->
+    <c-dashboard name="john doe" avatar="">
+        <div slot="email">a@yahoo.com</div>
+        <div slot="phone">002-010-112-22</div>
+    </c-dashboard>
+    <c-posts></c-posts>
+    <c-articles></c-articles>
+    <script src="./index.js"></script>
+</body>
+</html>
